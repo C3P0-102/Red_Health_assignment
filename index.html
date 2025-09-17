@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Commenting System UI</title>
+</head>
+<body>
+    
+    <div onscroll id="demo">
+
+    <section id="top-section">
+        <div class="top-class">
+            <h1>Welcome </h1>
+            <p>We'd love to hear your thoughts,<br>join the discussion and connect with others below!</p>
+        </div>
+    </section>
+
+    <section id="comment-section">
+        <div class="comment-section">
+            <span class="com-span">
+                <img src="assests/message.png" alt="Message Icon" class="message-icon">
+            <h2> Add a Comment</h2>
+            </span>
+            <div class="comment-box">
+                <h3>Select User</h3>
+                <select id="user-select">
+                    <option disabled selected>Choose a user to comment as...</option>
+                </select>
+                <h3>Your Comment</h3>
+                <textarea class="comment-input" placeholder="Write your comment here..."></textarea>
+                <br>
+                <span class="com-span2">
+                    
+                    <button class="comment-button" onclick="addComment()"><img src="assests/paper-plane.png" alt="Paper Plane Icon" class="plane-icon"> Post Comment</button>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="comments-display">
+        
+        <div class="com-title">
+            <h2>Comments (<span id="comment-count">0</span>)</h2>
+                <span class="com-span">
+                    <button id="newest-btn">🕑 Newest</button>
+                    <button id="oldest-btn">🗓️ Oldest</button>
+                </span>
+        </div>
+
+        <div class="comments-container">
+            <div id="comments-list"></div>
+        </div>
+    </section>
+    </div>
+
+    <script src="script.js" ></script>
+</body>
+</html>

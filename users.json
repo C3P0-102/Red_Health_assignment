@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@techcorp.com",
+      "companyName": "TechCorp Solutions"
+    },
+    {
+      "id": 2,
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@innovate.io",
+      "companyName": "Innovate Technologies"
+    },
+    {
+      "id": 3,
+      "name": "Mike Chen",
+      "email": "mike.chen@webdev.co",
+      "companyName": "WebDev Co."
+    },
+    {
+      "id": 4,
+      "name": "Emma Wilson",
+      "email": "emma.wilson@startup.xyz",
+      "companyName": "StartupXYZ"
+    },
+    {
+      "id": 5,
+      "name": "David Rodriguez",
+      "email": "david.rodriguez@agency.net",
+      "companyName": "Creative Agency"
+    },
+    {
+      "id": 6,
+      "name": "Lisa Park",
+      "email": "lisa.park@design.studio",
+      "companyName": "Design Studio Pro"
+    },
+    {
+      "id": 7,
+      "name": "Alex Thompson",
+      "email": "alex.thompson@code.works",
+      "companyName": "CodeWorks Inc."
+    },
+    {
+      "id": 8,
+      "name": "Maria Garcia",
+      "email": "maria.garcia@digital.hub",
+      "companyName": "Digital Hub Solutions"
+    }
+  ]
+}
